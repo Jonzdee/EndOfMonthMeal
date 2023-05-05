@@ -1,0 +1,108 @@
+body{
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    min-height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url('./images/ocean.jpg');
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+
+.navbar .navbar-toggler:focus {
+    color: #fff;
+  }  
+.navbar-brand img{
+    margin-left: 30px;
+    width: 5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+}
+
+.row{
+    text-align: center;
+}
+.row h1 span{
+    color: purple;
+}
+.btn{
+    padding: 10px 22px;
+}
+.hero-section{
+  margin-top: 200px;
+}
+.hero-section h1 {
+    font-family: 'roboto', sans-serif !important;
+}
+.hero-section .btn-main{
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    font-size: 1.3rem;
+}
+.hero-section .btn-main:hover{
+    width: 230px;
+    background-color: transparent;
+    color: #000;
+    background-color: #fff;
+    font-size: 1.4rem;
+    transition: 1s;
+    border: 2px solid or;
+}
+
+.collapse li{
+    padding: 20px 20px;
+    font-size: 20px;
+    
+}
+.collapse li a{
+    font-size: 20px;
+    color: white;
+
+    
+}
+li a:hover{
+   background-color: #0000006b;
+   padding-left: 5px;
+  
+}
+.container input:focus{
+    box-shadow: none;
+    
+}
+.container input{
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+    color: #fff;
+    
+}
+.message textarea{
+    background-color: transparent;
+    width: 300px;
+    color:#fff ;
+
+}
+.btn2{
+    background-color: transparent;
+    padding: 12px 20px;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.btn4{
+    text-align: center;
+  
+}
+.card img{
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+}
